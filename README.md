@@ -1,6 +1,6 @@
 # jpString
 
-String manipulation NPM package.
+A string manipulation NPM package. Designed to allow for various string alterations in javascript.
 
 ## initial
 
@@ -10,7 +10,7 @@ Usage:
 jpString.initial(string, capital);
 ```
 
-It takes in two arguments; a string of any length and a capitalization boolean.
+It takes in two arguments; a string of any length and a boolean.
 
 If capital is set to true every initial will be capitalized.
 If capital is set to false every initial will be set to lower case.
@@ -19,7 +19,8 @@ If there is no second argument the initials will be returned in the case of thei
 The first argument HAS to be a string.
 
 It returns the initials of each word that is separated by a space. The initials are returned joined.
-Commas (,) and periods (.) will be returned within the initials.
+Special characters such as £$%^ are ignored but numbers are returned.
+Commas (,) and periods (.) that are not spaced will be returned within the initials.
 
 Example:
 
@@ -37,4 +38,10 @@ jpString.initial("john Smith", true);
 jpString.initial("John Smith. Mary Jane", false);
 // will return lower case initials with periods 'js.mj'
 // this is also true with commas
+```
+
+```js
+jpString.initial("$£John Smith , Mary 1Jane");
+// will return unchanged initials without the comma or $£ 'JSM1'
+// this is also true with periods
 ```
