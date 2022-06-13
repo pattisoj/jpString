@@ -1,0 +1,27 @@
+{
+  "name": "jp-string",
+  "version": "1.0.0",
+  "description": "String manipulation tool. Gather the initials (or first character) of each word in a string.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pattisoj/jpString.git"
+  },
+  "keywords": [
+    "string",
+    "initial"
+  ],
+  "author": "Josh Pattison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pattisoj/jpString/issues"
+  },
+  "homepage": "https://github.com/pattisoj/jpString#readme",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
