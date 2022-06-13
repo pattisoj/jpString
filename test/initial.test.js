@@ -29,4 +29,19 @@ describe("initials", () => {
       expect(actual).toEqual(expected);
     }
   );
+
+  it("Throws an error if the first argument is not a string", () => {
+    const text = 1;
+    expect(() => initial(text)).toThrow(
+      TypeError("The first argument in initial needs to be a string")
+    );
+  });
+
+  it("Throws an error if the second argument is not a boolean", () => {
+    const text = "Random String";
+    const capital = 1;
+    expect(() => initial(text, capital)).toThrow(
+      TypeError("The second argument in initial needs to be a boolean")
+    );
+  });
 });
