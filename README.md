@@ -19,7 +19,7 @@ npm i jp-string
 Import the package to your file
 
 ```js
-const jp-string = require("jpString")
+const jpString = require("jpString")
 ```
 
 Use the function you need by accessing it through the jpString object
