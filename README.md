@@ -1,6 +1,32 @@
 # jpString
 
+![](https://img.shields.io/github/issues/pattisoj/jpString?style=plastic)
+![](https://img.shields.io/github/forks/pattisoj/jpString?style=plastic)
+![](https://img.shields.io/github/stars/pattisoj/jpString?style=plastic)
+![](https://img.shields.io/npm/v/jp-string?style=plastic)
+![](https://img.shields.io/github/license/pattisoj/jpString?style=plastic)
+
 A string manipulation NPM package. Designed to allow for various string alterations in javascript.
+
+# Installation & Usage
+
+Install the package with npm
+
+```js
+npm i jp-string
+```
+
+Import the package to your file
+
+```js
+const jp-string = require("jpString")
+```
+
+Use the function you need by accessing it through the jpString object
+
+```js
+jpString.initial(string, capital);
+```
 
 ## initial
 
