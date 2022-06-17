@@ -1,5 +1,6 @@
 # jpString
 
+![](https://img.shields.io/npm/dw/jp-string?style=plastic)
 ![](https://img.shields.io/github/issues/pattisoj/jpString?style=plastic)
 ![](https://img.shields.io/github/forks/pattisoj/jpString?style=plastic)
 ![](https://img.shields.io/github/stars/pattisoj/jpString?style=plastic)
