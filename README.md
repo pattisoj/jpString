@@ -9,6 +9,11 @@
 
 A string manipulation NPM package. Designed to allow for various string alterations in javascript.
 
+# Contents
+
+1. [Installation & Usage](#installation--usage)
+2. [Docs](#docs)
+
 # Installation & Usage
 
 Install the package with npm
@@ -20,14 +25,32 @@ npm i jp-string
 Import the package to your file
 
 ```js
-const jpString = require("jpString")
+const jpString = require("jpString");
 ```
 
 Use the function you need by accessing it through the jpString object
 
 ```js
-jpString.initial(string, capital);
+jpString.randomUpperLetter();
 ```
+
+# Docs
+
+- [randomUpperLetter](#randomupperletter)
+- [initial](#initial)
+
+## randomUpperLetter
+
+Usage:
+
+```js
+jpString.randomUpperLetter();
+// possible return "A"
+```
+
+It takes in no arguments.
+
+When called it returns one random letter from the English alphabet (_ABCDEFGHIJKLMNOPQRSTUVWXYZ_) in upper (capital) case.
 
 ## initial
 
