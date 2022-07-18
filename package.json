@@ -1,6 +1,6 @@
 {
   "name": "jp-string",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "String manipulation tool. Gather the initials (or first character) of each word in a string.",
   "main": "index.js",
   "type": "commonjs",
@@ -14,6 +14,7 @@
   },
   "keywords": [
     "string",
+    "random",
     "initial"
   ],
   "author": "Josh Pattison",

@@ -37,6 +37,7 @@ jpString.randomUpperLetter();
 # Docs
 
 - [randomUpperLetter](#randomupperletter)
+- [randomLowerLetter](#randomlowerletter)
 - [initial](#initial)
 
 ## randomUpperLetter
@@ -51,6 +52,19 @@ jpString.randomUpperLetter();
 It takes in no arguments.
 
 When called it returns one random letter from the English alphabet (_ABCDEFGHIJKLMNOPQRSTUVWXYZ_) in upper (capital) case.
+
+## randomLowerLetter
+
+Usage:
+
+```js
+jpString.randomLowerLetter();
+// possible return "b"
+```
+
+It takes in no arguments.
+
+When called it returns one random letter from the English alphabet (_abcdefghijklmnopqrstuvwxyz_) in lower case.
 
 ## initial
 
