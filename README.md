@@ -11,8 +11,15 @@ A string manipulation NPM package. Designed to allow for various string alterati
 
 # Contents
 
-1. [Installation & Usage](#installation--usage)
-2. [Docs](#docs)
+1. [TL;DR](#tldr)
+2. [Installation & Usage](#installation--usage)
+3. [Docs](#docs)
+
+# TL;DR
+
+This NPM package was created as a learning opportunity. I wanted to experience and learn about the creation of a public package. I also wanted to begin learning about CI/CD pipelines and this project was my first experience of it. 
+
+I chose a string manipulation package as I felt it gave me the most opportunities to keep adding functionality. More features will be added on an un-scheduled basis.
 
 # Installation & Usage
 
